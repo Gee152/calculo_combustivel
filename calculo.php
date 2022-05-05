@@ -17,7 +17,7 @@ if ($_POST) {
             $cal = ($distancia/$auto) * $preco;
             $cal = number_format($cal,2,',','.');
 
-            $msg.= "Seu consumo médio em R$ é: ".$cal;
+            $msg.= "Para pecorrer a distancia de ".$distancia." KM ". " é de R$: ".$cal;
             
         } else {
             $msg.= "Para realizar o cálculo, no campo distancia, autonimia e preço deve ser maior que zero!";
